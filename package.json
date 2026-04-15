@@ -2,7 +2,7 @@
   "name": "node-red-app",
   "version": "1.0.0",
   "scripts": {
-    "start": "node-red"
+    "start": "npx node-red -p 10000 -u /data"
   },
   "dependencies": {
     "node-red": "^3.1.0"
